@@ -1,0 +1,506 @@
+* {box-sizing: border-box;
+    margin: 0; padding: 0;}
+
+html {min-width: 1015px;}
+
+body {min-width: 1015px;; background-color: #B8AEB7;}
+
+#outhead {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+}
+
+#head {
+    max-width: max-content;
+    margin-left: auto; margin-right: auto;
+}
+
+#inhead {
+    width: 1000px;
+    padding-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+#mini-logo {
+    margin-right: 64px;
+}
+
+#nav1, #nav2 {
+    font-family: 'TRY Grtsk Tera';
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+}
+
+#nav1 {
+    margin-right: 52px;
+}
+
+#kn-head {
+    margin-left: auto; margin-right: 4px;
+}
+
+.super-knopka {
+    text-decoration: none;
+    border: 3px orangered solid;
+    border-radius: 22px;
+    font-size: 12px;
+    color: orangered;
+    padding: 12px 30px 12px 30px;
+    font-family: 'TRY Grtsk SemiBold Tera';
+    width: 236px;
+    height: 44px;
+    background-color: white;
+}
+
+#outtop {
+    height: 708px;
+    background-image: url(img/fire.png);
+}
+
+#top {
+    width: max-content;
+    padding-top: 149px; padding-bottom: 214px;
+    margin-left: auto; margin-right: auto;
+}
+
+#title {
+    font-family: 'TRY Grtsk SemiBold Tera';
+    font-size: 133px;
+    color: white;
+    width: 1000px;
+    margin-left: auto; margin-right: auto;
+    padding-left: 2px;
+}
+
+#tkni {
+    width: 1000px;
+    margin-left: auto; margin-right: auto;
+}
+
+#about {
+    width: 538px;
+    margin-left: 189px;
+    margin-right: 281px;
+    font-family: 'TRY Grtsk Tera';
+    font-size: 18px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.kursiv {
+    font-family: 'TRY Grtsk SemiBold Tera Slant';
+    font-size: 18px;
+    color: white;
+}
+
+#kn-top { margin-left: 189px;}
+
+#block2 {background-color: white;}
+
+#logo {
+    display: flex;
+    align-items: center;
+    width: 1015px;
+    margin-left: auto; margin-right: auto;
+    margin-top: 0px;
+}
+
+#title2 {
+    padding-left: 88px;
+}
+
+#kak {
+    font-family: 'TRY Grtsk SemiBold Tera';
+    font-size: 36px;
+    padding-bottom: 30px;
+}
+
+#b {
+    font-family: 'TRY Grtsk SemiBold Tera Slant';
+    font-size: 36px;
+}
+
+#knopa {
+    text-decoration: none;
+    border: 3px black solid;
+    border-radius: 22px;
+    font-size: 12px;
+    color: black;
+    padding-top: 12px; padding-bottom: 12px;
+    padding-left: 20px; padding-right: 20px;
+    font-family: 'TRY Grtsk SemiBold Tera';
+    width: 236px;
+}
+
+#numbers {background-color: white;}
+
+.number {
+    font-family: 'TRY Grtsk SemiBold Tera';
+    color: black;
+    font-size: 96px;
+    width: 236px;
+}
+
+#steps {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1000px;
+    margin-left: auto; margin-right: auto;
+}
+
+#bblock {
+    background-image: url(img/fire2.jpg);
+    height: 719px;
+    margin-bottom: 145px;
+}
+
+.step {
+    font-size: 18px;
+    font-family: 'TRY Grtsk Tera';
+    padding-top: 17px;
+    width: 256px;
+}
+
+#three {width: 236px;}
+
+.s {
+    font-family: 'TRY Grtsk SemiBold Tera Slant';
+}
+
+#title3 {
+    margin-left: auto; margin-right: auto;
+    width: max-content;
+}
+
+#vopros {
+    width: 1000px;
+    padding-left: 179px;
+    padding-right: 420px;
+    padding-top: 105px;
+}
+
+#d {
+    font-size: 36px;
+    color: white;
+    font-family: 'TRY Grtsk SemiBold Tera';
+    padding-bottom: 5px;
+}
+
+#dis {
+    font-family: 'TRY Grtsk Tera';
+    font-size: 18px;
+    color: white;
+}
+
+#db {
+    font-family: 'TRY Grtsk SemiBold Tera Slant';
+}
+
+#tickets {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto; margin-right: auto;
+    margin-top: 95px;
+}
+
+.ticket {
+    display: flex;
+    align-items: center;
+    width: 490px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.ticktext {
+    display: flex;
+    flex-flow: column;
+    margin-left: 19px;
+}
+
+#str1 {
+    font-size: 18px;
+    font-family: 'TRY Grtsk SemiBold Tera';
+}
+
+#str2 {
+    font-size: 12px;
+    font-family: 'TRY Grtsk SemiBold Tera';
+}
+
+#kn-tick {
+    text-decoration: none;
+    border: 3px black solid;
+    border-radius: 22px;
+    font-size: 12px;
+    color: black;
+    padding-top: 12px; padding-bottom: 12px;
+    padding-left: 51px; padding-right: 51px;
+    font-family: 'TRY Grtsk SemiBold Tera';
+    width: 217px;
+}
+
+.tttt {margin-bottom: 45px;}
+
+#title4 {
+    margin-left: auto; margin-right: auto;
+    width: max-content;
+}
+
+#vopros2 {
+    width: 1000px;
+    padding-left: 179px;
+    padding-right: 300px;
+}
+
+#titlelekc {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1000px;
+    margin-left: auto; margin-right: auto;
+    margin-top: 60px;
+}
+
+.titlelekc {
+    font-size: 18px;
+    font-family: 'TRY Grtsk SemiBold Tera';
+    color: white;
+    width: 236px;
+}
+
+#background {
+    width: 100%;
+    background-image: url(img/fire3.png);
+}
+
+#lekc {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1000px;
+    margin-left: auto; margin-right: auto;
+    margin-top: 20px;
+}
+
+.aboutlekc {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    height: 331px;
+    margin-bottom: 105px;
+}
+
+p.aboutlekc {
+    font-size: 18px;
+    font-family: 'TRY Grtsk Tera';
+    color: white;
+}
+
+.mini-text {
+    font-size: 12px;
+    font-family: 'TRY Grtsk Tera';
+    color: white;
+}
+
+#outend {
+    width: 1000px;
+    margin-left: auto; margin-right: auto;
+}
+
+#end {
+    display: flex;
+    padding-left: 179px;
+    padding-bottom: 85px;
+}
+
+#forma {
+    padding-right: 170px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    height: 222px;
+}
+
+::placeholder {
+    color: white;
+}
+
+input {
+    background: none;
+    color: white;
+    border: 3px white solid;
+}
+
+input:focus {
+    outline: none;
+    background: none;
+    color: white;
+}
+
+.forma {
+    width: 236px;
+    height: 44px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 32px;
+    border: 3px white solid;
+    border-radius: 30px;
+}
+
+#bottom-end {
+    text-decoration: none;
+    width: 236px;
+    height: 44px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: white;
+    font-size: 12px;
+    border-radius: 30px;
+    border: 3px orangered solid;
+    font-family: 'TRY Grtsk SemiBold Tera';
+    color: orangered;
+}
+
+a::after {text-decoration: none;}
+
+
+#outpodval {
+    width: 100%;
+    background-color: white;
+    padding-bottom: 40px;
+}
+
+#podval {
+    width: 1000px;
+    margin-left: auto; margin-right: auto;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    color: black;
+    font-family: 'TRY Grtsk Tera';
+}
+
+#media {
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 108px;
+    margin-left: auto; margin-right: auto;
+}
+
+@keyframes knopa {
+    from {
+        border: 3px black solid;
+        color: black;
+    }
+    to {
+        border: 3px darkgrey solid;
+        color: darkgray;
+    }
+}
+
+@keyframes knopa2 {
+    from {
+        border: 3px orangered solid;
+        color: orangered;
+    }
+    to {
+        border: 3px orange solid;
+        color: orange;
+    }
+}
+
+@keyframes navs {
+    from {
+        color: black;
+    }
+    to {
+        color: darkgrey;
+    }
+}
+
+
+.black:hover {
+    animation-name: knopa;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+}
+
+.orange:hover {
+    animation-name: knopa2;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+}
+
+.navs:hover {
+    animation-name: navs;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+}
+
+ 
+.img-lek:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+ 
+.icons:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+ 
+.ticket:hover {
+    transform: scale(1.025);
+    transition: 0.5s;
+}
+
+
+@font-face {
+    font-family: 'TRY Grtsk SemiBold Tera';
+    src: url('fonts/TRYGrtsk-SemiBoldTera.eot');
+    src: url('fonts/TRYGrtsk-SemiBoldTera.eot?#iefix') format('embedded-opentype'),
+        url('fonts/TRYGrtsk-SemiBoldTera.woff2') format('woff2'),
+        url('fonts/TRYGrtsk-SemiBoldTera.woff') format('woff'),
+        url('fonts/TRYGrtsk-SemiBoldTera.ttf') format('truetype'),
+        url('fonts/TRYGrtsk-SemiBoldTera.svg#TRYGrtsk-SemiBoldTera') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TRY Grtsk Tera';
+    src: url('fonts/TRYGrtsk-Tera.eot');
+    src: url('fonts/TRYGrtsk-Tera.eot?#iefix') format('embedded-opentype'),
+        url('fonts/TRYGrtsk-Tera.woff2') format('woff2'),
+        url('fonts/TRYGrtsk-Tera.woff') format('woff'),
+        url('fonts/TRYGrtsk-Tera.ttf') format('truetype'),
+        url('fonts/TRYGrtsk-Tera.svg#TRYGrtsk-Tera') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TRY Grtsk SemiBold Tera Slant';
+    src: url('fonts/TRYGrtsk-SemiBoldTeraSlant.eot');
+    src: url('fonts/TRYGrtsk-SemiBoldTeraSlant.eot?#iefix') format('embedded-opentype'),
+        url('fonts/TRYGrtsk-SemiBoldTeraSlant.woff2') format('woff2'),
+        url('fonts/TRYGrtsk-SemiBoldTeraSlant.woff') format('woff'),
+        url('fonts/TRYGrtsk-SemiBoldTeraSlant.ttf') format('truetype'),
+        url('fonts/TRYGrtsk-SemiBoldTeraSlant.svg#TRYGrtsk-SemiBoldTeraSlant') format('svg');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}

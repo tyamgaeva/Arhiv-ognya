@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'TRY Grtsk SemiBold Tera';
+    src: url('TRYGrtsk-SemiBoldTera.eot');
+    src: url('TRYGrtsk-SemiBoldTera.eot?#iefix') format('embedded-opentype'),
+        url('TRYGrtsk-SemiBoldTera.woff2') format('woff2'),
+        url('TRYGrtsk-SemiBoldTera.woff') format('woff'),
+        url('TRYGrtsk-SemiBoldTera.ttf') format('truetype'),
+        url('TRYGrtsk-SemiBoldTera.svg#TRYGrtsk-SemiBoldTera') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TRY Grtsk Tera';
+    src: url('TRYGrtsk-Tera.eot');
+    src: url('TRYGrtsk-Tera.eot?#iefix') format('embedded-opentype'),
+        url('TRYGrtsk-Tera.woff2') format('woff2'),
+        url('TRYGrtsk-Tera.woff') format('woff'),
+        url('TRYGrtsk-Tera.ttf') format('truetype'),
+        url('TRYGrtsk-Tera.svg#TRYGrtsk-Tera') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TRY Grtsk SemiBold Tera Slant';
+    src: url('TRYGrtsk-SemiBoldTeraSlant.eot');
+    src: url('TRYGrtsk-SemiBoldTeraSlant.eot?#iefix') format('embedded-opentype'),
+        url('TRYGrtsk-SemiBoldTeraSlant.woff2') format('woff2'),
+        url('TRYGrtsk-SemiBoldTeraSlant.woff') format('woff'),
+        url('TRYGrtsk-SemiBoldTeraSlant.ttf') format('truetype'),
+        url('TRYGrtsk-SemiBoldTeraSlant.svg#TRYGrtsk-SemiBoldTeraSlant') format('svg');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
